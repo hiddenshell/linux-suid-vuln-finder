@@ -1,6 +1,1 @@
-/usr/lib/x86_64-linux-gnu/gstreamer1.0/gstreamer-1.0/gst-ptp-helper = cap_net_bind_service,cap_net_admin+ep
-/usr/bin/traceroute6.iputils = cap_net_raw+ep
-/usr/bin/mtr-packet = cap_net_raw+ep
-/usr/bin/ping = cap_net_raw+ep
 /home/karen/vim = cap_setuid+ep
-/home/ubuntu/view = cap_setuid+ep

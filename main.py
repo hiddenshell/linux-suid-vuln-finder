@@ -32,7 +32,6 @@ def suid():
 			print()
 
 def find_cap(target):
-	print(gtfobins_url+target)
 	respose = requests.get(gtfobins_url+target).content
 	if '<h2 id="capabilities" class="function-name">' in respose.decode():
 		print(True)
@@ -47,7 +46,6 @@ def capabilities():
 	results = results.split('\n')
 	for result in results:
 		result = result.split('/')[-1].split("=")[0]
-		print(type(result))
 		vuln_result = find_cap(result)
 		if vuln_result == True:
 			print(f'Capabilities Vuln Found in: {result}') 

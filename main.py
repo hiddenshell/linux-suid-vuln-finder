@@ -22,7 +22,7 @@ def find_vuln(target):
 # results = find_result.stdout
 
 ### for manual
-file_path = open('results.txt','r')
+file_path = open('suid.txt','r')
 results = file_path.read()
 
 
